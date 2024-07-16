@@ -1,0 +1,41 @@
+
+a:link{
+    padding: 10px 20px;
+    border: solid blue;
+    background-color: white;
+    box-sizing: border-box;
+    border-radius: 10px;
+    text-decoration: none;
+    width: 100px;
+    margin: 10px;
+}
+
+img{width: 500px;}
+
+html{background-color: skyblue;}
+
+#p{
+    font-family: 'Courier New', Courier, monospace;
+    border-collapse: collapse;
+    width: 1000px;
+}
+#p th, #p td{
+    border: solid 1px black; padding:10px;
+}
+#p tr:nth-child(even){
+background-color: white;
+}
+
+#p tr:hover{background-color: #cccc;}
+
+#p th{
+
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: white;
+    color: blue;
+
+}
+h1{text-align: center;
+    font-family: 'Courier New', Courier, monospace;}
